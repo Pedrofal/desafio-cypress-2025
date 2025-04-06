@@ -101,9 +101,13 @@ Peso, preço, placa e quilometragem
 - Fluxo preenchendo os campos com entradas inválidas (valida mensagens de erro
 
 Requisitos
+
 Node.js >= 14
+
 npm >= 6
+
 Cypress ^13.5.0
+
 Faker ^8.4.0
 
 Observações

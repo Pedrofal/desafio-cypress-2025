@@ -41,10 +41,11 @@ DESAFIO_CYPRESS_ACADEMIA2025/readme.md
 
 1. Clone o repositório:
 
+git clone https://github.com/seu-usuario/desafio-cypress-2025.git
+cd desafio-cypress-2025
 
-git clone https://github.com/seu-usuario/nome-do-repo.git
-cd nome-do-repo
 Instale as dependências:
+npm install
 
 Instale as dependências:
 npm install

@@ -11,36 +11,30 @@ Este projeto é uma suíte de testes automatizados de interface (UI) desenvolvid
 
 ## Estrutura do Projeto
 
-DESAFIO_CYPRESS_ACADEMIA2025/
-├── .vscode/
-├── cypress/
-│   ├── downloads/
-│   ├── e2e/front-end/
-│   │   ├── invalidData.feature
-│   │   ├── registerCar.feature
-│   │   └── registerCarFail.feature
-│   ├── fixtures/
-│   ├── support/
-│   │   ├── commands.js
-│   │   ├── e2e.js
-│   │   ├── page_objects/
-│   │   │   ├── home.page.js
-│   │   │   ├── insurantData.page.js
-│   │   │   ├── priceOpiton.page.js
-│   │   │   ├── productData.page.js
-│   │   │   ├── sendQuote.page.js
-│   │   │   └── vehicleData.page.js
-│   │   └── process/
-│   │       ├── invalidData.cy.js
-│   │       ├── registerCar.cy.js
-│   │       └── registreCarFail.cy.js
-├── node_modules/
-├── .gitignore
-├── cypress.config.js
-├── cypress.env.json
-├── package-lock.json
-├── package.json
-└── readme.md
+DESAFIO_CYPRESS_ACADEMIA2025/.vscode/
+DESAFIO_CYPRESS_ACADEMIA2025/cypress/downloads/
+DESAFIO_CYPRESS_ACADEMIA2025/cypress/e2e/front-end/invalidData.feature
+DESAFIO_CYPRESS_ACADEMIA2025/cypress/e2e/front-end/registerCar.feature
+DESAFIO_CYPRESS_ACADEMIA2025/cypress/e2e/front-end/registerCarFail.feature
+DESAFIO_CYPRESS_ACADEMIA2025/cypress/fixtures/
+DESAFIO_CYPRESS_ACADEMIA2025/cypress/support/commands.js
+DESAFIO_CYPRESS_ACADEMIA2025/cypress/support/e2e.js
+DESAFIO_CYPRESS_ACADEMIA2025/cypress/support/page_objects/home.page.js
+DESAFIO_CYPRESS_ACADEMIA2025/cypress/support/page_objects/insurantData.page.js
+DESAFIO_CYPRESS_ACADEMIA2025/cypress/support/page_objects/priceOpiton.page.js
+DESAFIO_CYPRESS_ACADEMIA2025/cypress/support/page_objects/productData.page.js
+DESAFIO_CYPRESS_ACADEMIA2025/cypress/support/page_objects/sendQuote.page.js
+DESAFIO_CYPRESS_ACADEMIA2025/cypress/support/page_objects/vehicleData.page.js
+DESAFIO_CYPRESS_ACADEMIA2025/cypress/support/process/invalidData.cy.js
+DESAFIO_CYPRESS_ACADEMIA2025/cypress/support/process/registerCar.cy.js
+DESAFIO_CYPRESS_ACADEMIA2025/cypress/support/process/registreCarFail.cy.js
+DESAFIO_CYPRESS_ACADEMIA2025/node_modules/
+DESAFIO_CYPRESS_ACADEMIA2025/.gitignore
+DESAFIO_CYPRESS_ACADEMIA2025/cypress.config.js
+DESAFIO_CYPRESS_ACADEMIA2025/cypress.env.json
+DESAFIO_CYPRESS_ACADEMIA2025/package-lock.json
+DESAFIO_CYPRESS_ACADEMIA2025/package.json
+DESAFIO_CYPRESS_ACADEMIA2025/readme.md
 
 
 ## Instalação

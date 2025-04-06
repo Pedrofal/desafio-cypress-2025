@@ -11,11 +11,37 @@ Este projeto é uma suíte de testes automatizados de interface (UI) desenvolvid
 
 ## Estrutura do Projeto
 
-. ├── cypress/ │ ├── integration/ │ │ └── features/ │ │ └── registerCar.feature │ ├── support/ │ │ ├── commands.js │ │ └── page_objects/ │ │ ├── home.page.js │ │ ├── vehicleData.page.js │ │ ├── insurantData.page.js │ │ ├── productData.page.js │ │ ├── priceOption.page.js │ │ └── sendQuote.page.js │ └── step_definitions/ │ └── registerCar.steps.js ├── cypress.config.js ├── package.json └── README.md
+DESAFIO_CYPRESS_ACADEMIA2025/
+├── .vscode/
+├── cypress/
+│   ├── downloads/
+│   ├── e2e/front-end/
+│   │   ├── invalidData.feature
+│   │   ├── registerCar.feature
+│   │   └── registerCarFail.feature
+│   ├── fixtures/
+│   ├── support/
+│   │   ├── commands.js
+│   │   ├── e2e.js
+│   │   ├── page_objects/
+│   │   │   ├── home.page.js
+│   │   │   ├── insurantData.page.js
+│   │   │   ├── priceOpiton.page.js
+│   │   │   ├── productData.page.js
+│   │   │   ├── sendQuote.page.js
+│   │   │   └── vehicleData.page.js
+│   │   └── process/
+│   │       ├── invalidData.cy.js
+│   │       ├── registerCar.cy.js
+│   │       └── registreCarFail.cy.js
+├── node_modules/
+├── .gitignore
+├── cypress.config.js
+├── cypress.env.json
+├── package-lock.json
+├── package.json
+└── readme.md
 
-bash
-Copiar
-Editar
 
 ## Instalação
 

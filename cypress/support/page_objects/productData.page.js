@@ -11,7 +11,6 @@ class ProductDataPage {
     this.EURO_PROTECTION = '#EuroProtection';
     this.LEGAL_DEFENSE_INSURANCE = '#LegalDefenseInsurance';
 
-
     const now = new Date();
     now.setMonth(now.getMonth() + 1);
     const month = String(now.getMonth() + 2).padStart(2, '0');
@@ -21,7 +20,6 @@ class ProductDataPage {
 
     this.insuranceSumOptions = ['3000000', '5000000', '7000000', '10000000', '15000000', '20000000', '25000000', '30000000', '35000000'];
     this.meritRatingOptions = ['Super Bonus', 'Bonus 1', 'Bonus 2', 'Bonus 3', 'Bonus 4', 'Bonus 5', 'Bonus 6', 'Bonus 7', 'Bonus 8', 'Bonus 9', 'Malus 10', 'Malus 11', 'Malus 12', 'Malus 13', 'Malus 14', 'Malus 15', 'Malus 16', 'Malus 17'];
-
 
     this.randomIndex = Cypress._.random(0, this.insuranceSumOptions.length - 1);
     this.randomInsuranceSum = this.insuranceSumOptions[this.randomIndex];
@@ -35,30 +33,46 @@ class ProductDataPage {
   }
 
   fillValidProductData() {
+    cy.log('Filling product data form with valid values');
+
+    cy.log(`Typing start date: ${this.startDate}`);
     cy.get(this.inputStartDate)
       .type(this.startDate, { force: true });
+
+    cy.log(`Selecting insurance sum: ${this.randomInsuranceSum}`);
     cy.get(this.inputInsuranceSum)
       .select(this.randomInsuranceSum, { force: true });
+
+    cy.log(`Selecting merit rating: ${this.randomMeritRating}`);
     cy.get(this.inputMeritRating)
       .select(this.randomMeritRating, { force: true });
+
+    cy.log(`Selecting damage insurance: ${this.randomDamageInsurance}`);
     cy.get(this.inputDamageInsurance)
       .select(this.randomDamageInsurance, { force: true });
+
     if (Math.random() < 0.5) {
+      cy.log('Checking Euro Protection');
       cy.get(this.EURO_PROTECTION).check({ force: true });
     } else {
+      cy.log('Checking Legal Defense Insurance');
       cy.get(this.LEGAL_DEFENSE_INSURANCE).check({ force: true });
     }
+
+    cy.log(`Selecting courtesy car: ${this.randomCourtesyCar}`);
     cy.get(this.inputCourtesyCar)
       .select(this.randomCourtesyCar, { force: true });
+
+    cy.log('Clicking "Next" to proceed to price option page');
     cy.get(this.btnNext)
       .click({ force: true });
   }
 
   skipProductData() {
+    cy.log('Skipping product data step');
     cy.get(this.btnNext)
-    .click({ force: true });
+      .click({ force: true });
   }
-  
 }
 
 export default ProductDataPage;

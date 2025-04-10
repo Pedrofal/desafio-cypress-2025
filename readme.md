@@ -9,38 +9,6 @@ Este projeto é uma suíte de testes automatizados de interface (UI) desenvolvid
 - Faker
 - JavaScript (ES6)
 
-## Estrutura do Projeto
-
-DESAFIO_CYPRESS_ACADEMIA2025/
-├── .vscode/
-├── cypress/
-│   ├── downloads/
-│   ├── e2e/front-end/
-│   │   ├── invalidData.feature
-│   │   ├── registerCar.feature
-│   │   └── registerCarFail.feature
-│   ├── fixtures/
-│   ├── support/
-│   │   ├── commands.js
-│   │   ├── e2e.js
-│   │   ├── page_objects/
-│   │   │   ├── home.page.js
-│   │   │   ├── insurantData.page.js
-│   │   │   ├── priceOpiton.page.js
-│   │   │   ├── productData.page.js
-│   │   │   ├── sendQuote.page.js
-│   │   │   └── vehicleData.page.js
-│   │   └── process/
-│   │       ├── invalidData.cy.js
-│   │       ├── registerCar.cy.js
-│   │       └── registreCarFail.cy.js
-├── node_modules/
-├── .gitignore
-├── cypress.config.js
-├── cypress.env.json
-├── package-lock.json
-├── package.json
-└── readme.md
 
 
 
@@ -48,7 +16,7 @@ DESAFIO_CYPRESS_ACADEMIA2025/
 
 1. Clone o repositório:
 
-git clone https://github.com/seu-usuario/desafio-cypress-2025.git
+git clone https://github.com/pedrofal/desafio-cypress-2025.git
 cd desafio-cypress-2025
 
 Instale as dependências:

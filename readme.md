@@ -25,61 +25,48 @@ npm install
 Instale as dependências:
 npm install
 
-Como Rodar os Testes
 
-Modo interativo:
+##Como Rodar os Testes
+
+1 - Modo interativo:
 
 npx cypress open
 Selecione o arquivo registerCar.feature para executar os cenários.
 
-Modo headless (terminal):
+2 - Modo headless (terminal):
 
 npx cypress run
 Funcionalidades Testadas
 Acesso à tela de registro
 
-Funcionalidades Testadas
+##Funcionalidades Testadas
+
 Acesso à tela de registro
+Validações de input
+Mensagem de erro
 
-
-Preenchimento dos dados:
-
-Veículo
-
-Segurado
-
-Produto
-
-Seleção de opções de preço
-
-Envio da cotação
-
-Validações de mensagens de erro nos campos:
-
-Cilindrada
-
-Performance do motor
-
-Data de fabricação
-
-Peso, preço, placa e quilometragem
 
 - Fluxo completo com preenchimento válido (valida sucesso no envio)
 - Fluxo sem preenchimento de campos obrigatórios (valida mensagem de erro)
 - Fluxo preenchendo os campos com entradas inválidas (valida mensagens de erro
 
-Requisitos
 
-Node.js >= 14
 
-npm >= 6
+##Requisitos
 
-Cypress ^13.5.0
+- Node.js >= 14
 
-Faker ^8.4.0
+- npm >= 6
 
-Observações
-O projeto utiliza a biblioteca Faker para gerar dados aleatórios.
+- Cypress ^13.5.0
 
-Em alguns comandos, é usado { force: true } para interagir com elementos ocultos ou sobrepostos.
+- Faker ^8.4.0
+
+
+
+##Observações:
+
+- O projeto utiliza a biblioteca Faker para gerar dados aleatórios.
+
+= Em alguns comandos, é usado { force: true } para interagir com elementos ocultos ou sobrepostos.
 

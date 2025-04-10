@@ -26,7 +26,7 @@ Instale as dependências:
 npm install
 
 
-##Como Rodar os Testes
+## Como Rodar Os Teste
 
 1 - Modo interativo:
 
@@ -39,7 +39,7 @@ npx cypress run
 Funcionalidades Testadas
 Acesso à tela de registro
 
-##Funcionalidades Testadas
+## Funcionalidades Testadas
 
 Acesso à tela de registro
 Validações de input
@@ -52,7 +52,7 @@ Mensagem de erro
 
 
 
-##Requisitos
+## Requisitos
 
 - Node.js >= 14
 
@@ -64,7 +64,7 @@ Mensagem de erro
 
 
 
-##Observações:
+## Observações
 
 - O projeto utiliza a biblioteca Faker para gerar dados aleatórios.
 

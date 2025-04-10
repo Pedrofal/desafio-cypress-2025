@@ -68,5 +68,5 @@ Mensagem de erro
 
 - O projeto utiliza a biblioteca Faker para gerar dados aleatórios.
 
-= Em alguns comandos, é usado { force: true } para interagir com elementos ocultos ou sobrepostos.
+-  Em alguns comandos, é usado { force: true } para interagir com elementos ocultos ou sobrepostos.
 
